@@ -1,0 +1,154 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_emailID",
+						"type": "string"
+					}
+				],
+				"name": "Email_ID",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "cCode",
+						"type": "string"
+					},
+					{
+						"name": "moNo",
+						"type": "uint256"
+					}
+				],
+				"name": "countryCode_Mobile",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "customerDF",
+				"outputs": [
+					{
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"name": "_lastName",
+						"type": "string"
+					},
+					{
+						"name": "_countryCode",
+						"type": "string"
+					},
+					{
+						"name": "_mobileNo",
+						"type": "uint256"
+					},
+					{
+						"name": "_email",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "fname",
+						"type": "string"
+					},
+					{
+						"name": "lname",
+						"type": "string"
+					}
+				],
+				"name": "First_Last",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "customer_count",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "SignUp",
+				"outputs": [
+					{
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Notes/071_Excercise.sol": "customerDetails"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Notes/071_Excercise.sol": {
+			"keccak256": "0x4ad8c759243cc3c744e9e02eaf43ac94cbac90359cc68ded0c932aca11551953",
+			"urls": [
+				"bzzr://bbd05a7f08c9fb502d659182497133470cd8efd1cf45cce96e0bbb18d7b57d29"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.5.1+commit.c8a2cb62"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity_Notes/Contracts/Notes/06_Mapping.sol": "Mappin"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity_Notes/Contracts/Notes/06_Mapping.sol": {
+			"keccak256": "0x09bb66b875ac95a9d4d514d76f66819c224f6b8a1dc912d188fcc7a042e2c45b",
+			"urls": [
+				"bzzr://f1e96cca3ab3be4d35f15fd41aff93fbcd9610476d877661f503b9ec555a1c02"
+			]
+		}
+	},
+	"version": 1
+}
